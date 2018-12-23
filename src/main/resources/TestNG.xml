@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Orangehrm"  parallel="none">
+
+<test name="logintest">
+	<classes>
+	<class  name="orange.TestCases.LoginTest"/>
+	</classes>
+</test>
+
+<test name="SearchTestCase">
+	<classes>
+	<class  name="orange.TestCases.SearchTestCase"/>
+	</classes>
+</test>
+
+<test name="AddUserTestCase">
+	<classes>
+	<class  name="orange.TestCases.AdduserTestCases"/>
+	</classes>
+</test>
+
+</suite>
+
